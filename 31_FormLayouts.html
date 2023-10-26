@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Layouts</title>
+</head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+<body>
+    <div class="container-fluid">
+        <!--Inline form-->
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h4>Inline form</h4>
+                <form class="form-inline">
+                    <div class="form-group"> 
+                        <label for="username">Username</label> 
+                        <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label> 
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <!--Vertical form - default alignment-->
+        <div class="row">
+            <div class="col-md-4 offset-md-4" >
+                <h4>Vertical form</h4>
+                <form> 
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+  
+
+
+    
+</body>
+</html>
